@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{220AF653-840
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{75278E73-55C2-406F-851A-7752B5526668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Creational", "src\DesignPatterns\DesignPatterns.Creational.csproj", "{F2AF7128-B442-4346-9C6F-12C532FDDA31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Creational", "src\DesignPatterns.Creational\DesignPatterns.Creational.csproj", "{F2AF7128-B442-4346-9C6F-12C532FDDA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
