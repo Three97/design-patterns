@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{220AF653-8404-46DD-91A1-2701A61A358F}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural", "src\DesignPatterns.Structural\DesignPatterns.Structural.csproj", "{62473399-DB4F-4A80-B6B3-433C76AF5640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Behavioral", "src\DesignPatterns.Behavioral\DesignPatterns.Behavioral.csproj", "{08C756F2-EADC-43BC-8CED-4E36213C3389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral", "src\DesignPatterns.Behavioral\DesignPatterns.Behavioral.csproj", "{08C756F2-EADC-43BC-8CED-4E36213C3389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Creational.Tests", "test\DesignPatterns.Creational.Tests\DesignPatterns.Creational.Tests.csproj", "{0EBC3D2A-F2D6-4240-A9D2-0C4EB3CC8812}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{08C756F2-EADC-43BC-8CED-4E36213C3389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08C756F2-EADC-43BC-8CED-4E36213C3389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08C756F2-EADC-43BC-8CED-4E36213C3389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBC3D2A-F2D6-4240-A9D2-0C4EB3CC8812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBC3D2A-F2D6-4240-A9D2-0C4EB3CC8812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBC3D2A-F2D6-4240-A9D2-0C4EB3CC8812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBC3D2A-F2D6-4240-A9D2-0C4EB3CC8812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{F2AF7128-B442-4346-9C6F-12C532FDDA31} = {220AF653-8404-46DD-91A1-2701A61A358F}
 		{62473399-DB4F-4A80-B6B3-433C76AF5640} = {220AF653-8404-46DD-91A1-2701A61A358F}
 		{08C756F2-EADC-43BC-8CED-4E36213C3389} = {220AF653-8404-46DD-91A1-2701A61A358F}
+		{0EBC3D2A-F2D6-4240-A9D2-0C4EB3CC8812} = {75278E73-55C2-406F-851A-7752B5526668}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {633F647B-F974-4B15-AA11-B1467497E792}
